@@ -200,7 +200,7 @@ server.on('request',(req,res) => {
         }
         
     } else if ( req.method === 'GET' && items[1] ==='messages') {
-        res.setHeader('Content-Type','text/html')
+        // res.setHeader('Content-Type','text/html')
         res.write('<html>');
         res.write('<body>');
         res.write('<ul>');
